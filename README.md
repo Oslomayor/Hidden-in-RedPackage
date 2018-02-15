@@ -6,13 +6,15 @@
 
 2016 年的解析 [程序员红包解析](https://www.jianshu.com/p/b1d9180bae35)
 
-一段JSON
+一段 JSON
 
 ```json
 <script type="text/inject-data">%7B%22uid%22%3A%22165580424%22%2C%22procedure%22%3A%22right*3%22%7D</script>
 ```
 
-在线解析 [bejson.com] (www.bejson.com) 得到
+在线解析 [bejson](http://www.bejson.com/)
+
+得到
 
 ```js
 < script type = "text/inject-data" > {
