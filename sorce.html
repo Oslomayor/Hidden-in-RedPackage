@@ -1,0 +1,57 @@
+
+<!--
+  Red Bag is Now Here! Try to find it. It's a Alipay redbag which is represented by 8 digits.
+  Many clues in this page.
+-->
+<html class="hola-html-reset hola-var piedu-var">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Piedu</title>
+    <link rel="stylesheet" href="//unpkg.com/holakit/assets/holakit.css?ver=05">
+    <style>
+      .piedu-var {
+        --hola-primary-color: #3faa3f;
+        --hola-focus-color: rgba(63, 170, 63, .5);
+      }
+    </style>
+  </head>
+  <body class="hola-body-typography hola-grey-bg">
+    <!-- 2nd TODO: nodejs/node issue "docs: re-word project messaging" -->
+    <header class="hola-navbar hola-navbar-transparent hola-navbar-darkbg hola-navbar-with-hero">
+      <div class="hola-container">
+        <nav class="hola-navbar-main">
+          <a href="#" class="hola-navbar-brand">Piedu</a>
+        </nav>
+        <input type="checkbox" class="hola-navbar-toggle" id="navbar-toggle">
+        <label for="navbar-toggle" class="hola-navbar-toggle-label"></label>
+        <nav class="hola-navbar-sub">
+          <a href="https://ihola.one">?Hola! 官网</a>
+        </nav>
+      </div>
+    </header>
+    <div class="hola-hero hola-hero-height-extended">
+      <div class="hola-container hola-hero-content">
+        <h1>Piedu</h1>
+        <p>不再做白日梦的地方。</p>
+      </div>
+    </div>
+    <div class="hola-card-stack hola-container">
+      <div class="hola-card">
+        <p>Piet，到 Piedu。</p>
+        <p>新的 ?Hola! 已经启程。</p>
+        <p>新的 Piedu 也即将启程。</p>
+      </div>
+    </div>
+    <footer class="hola-footer">
+      <div class="hola-container">
+        <p>Copyright 2015 L&amp;S Team, 2016 UnitedHubs, 2017-2018 Team ?Hola!.</p>
+      </div>
+    </footer>
+    <script>
+      window._step3_getRedBagAnotherTwoDigitsFunc = async () => eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('"0"',1,1,'47'.split('|'),0,{}))
+      window._step4_learningFetch = async () => {
+        console.log((await fetch('/api/v1/getPic/base64/dingyou')).text())
+      }
+    </script>
+  </body>
+</html>
